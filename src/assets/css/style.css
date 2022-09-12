@@ -1,0 +1,106 @@
+th.sortable {
+    color: #2196F3;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 16px;
+}
+.as-react-table .input-group-text:empty{
+    display: none;
+}
+.asrt-page-length{
+    display: inline-block;
+}
+.asrt-page-length .input-group-addon{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: none;
+}
+.asrt-pagination {
+    margin: 0;
+}
+.asrt-td-loading {
+    background-color: #fff;
+}
+.asrt-loading-textwrap{
+    padding: 5px 0px;
+}
+
+.breadcrum-fontset {
+    font-size: 16px !important;
+}
+
+.table-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.table-padding-schedule {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.table-header-padding {
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.table-footer-padding {
+    padding-left: 10px;
+    padding-right: 9px;
+}
+
+.table-head-text-bg {
+    background-color: #F7F7F8 !important;
+}
+
+.login-bg {
+    height:100vh;
+    background-size: cover;
+}
+
+.login-bg-mask {
+    background-color: rgba(0, 0, 0, 0.7);
+    height:100vh;
+}
+
+.sum-row {
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 18px !important;
+}
+
+.pending-status {
+    color: #FFB038;
+}
+
+.running-status {
+    color: #99D834;
+}
+
+.complete-status {
+    color: #0057FF;
+}
+
+.error-status {
+    color: #D84336;
+}
+
+.scan-type-dast{
+    font-weight: bold;
+    color: #1DC7EA;
+}
+
+.scan-type-sast{
+    font-weight: bold;
+    color: #87CB16;
+}
+
+.scan-type-cloc{
+    font-weight: bold;
+    color: #FF4A55;
+}
+

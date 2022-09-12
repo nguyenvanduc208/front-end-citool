@@ -1,0 +1,123 @@
+.monitoring_status{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#icon {
+    font-size: 4rem;
+    color : CornflowerBlue
+}
+
+.link{
+    display: flex;
+    align-items: center;
+}
+#link-info {
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #1a73e8;
+}
+
+.iconPublic {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+#icon-info {
+    font-size: 15px;
+    margin-left: 6px;
+    margin-top: 10px
+}
+
+#iconPub {
+    font-size: 2rem;
+}
+
+.ListDetailMonitoring {
+    flex: 1;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 0px 0px 15px 6px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 0px 0px 15px 6px rgba(0,0,0,0);
+}
+.status-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.status-items {
+    flex: 1;
+    margin: 0px 20px;
+
+}
+.item-title {
+    font-size: 35px;
+    color: #9A9A9A;
+}
+.item-1 {
+    font-size: 20px;
+    color: #9A9A9A;
+}
+.item-hours {
+    font-size: 15px;
+    color: #9A9A9A;
+}
+.chartTitle {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.chart-check {
+    border-top: 3px solid #9A9A9A;
+    width: 100%;
+}
+
+.chartFull {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+#tableChart th{
+    background-color: #9A9A9A;
+}
+.chartContent {
+    display: flex;
+    width: 60%;
+}
+.text-resTime {
+    margin-top: 50px;
+    writing-mode: tb-rl
+}
+
+.responseTable {
+    width: 500px;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.responseTable table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.responseTable th {
+    border: 1px solid black;
+    height: 50px;
+}
+.responseTable td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+.chartTitle-1 {
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 350px;
+}
+
+.resTime {
+    margin-left: 450px;
+}
+.recharts-wrapper {
+    margin-top: -50px;
+}
